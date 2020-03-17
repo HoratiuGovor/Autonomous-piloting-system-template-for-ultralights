@@ -16,7 +16,7 @@ The four main which act on an airplane are the **lift**, **gravity**,  **thrust*
      S - wing surface area
      Cz - lift coefficient
      
-The lift coefficeint is in relation with the wing angle of attack 
+The lift coefficeint is in relation with the wing angle of attack:
 <p align="center">
 <img height="300" src="images/angleOfAttack.jpg">
 </p>
