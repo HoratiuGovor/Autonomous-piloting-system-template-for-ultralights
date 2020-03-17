@@ -43,9 +43,9 @@ The lift coefficeint is in relation with the wing angle of attack
 6. When the plane reaches 150 m take off will disengage because the plane finished this stage and reached a safe altitude.
 7. Until further notice, the plane will hold 150 m at 120 km/h IAS ( or other altitude set as the take off safe altitude ).
 
-<img align="center" src="images/takeoff.jpg">
+<img align="center" src="images/takeOff.jpg">
 
-<img align="center" src="images/takeoffForces.jpg">
+<img align="center" height="300" src="images/takeOffForces.jpg">
 
     G - weight
     Fz - lift force
@@ -77,7 +77,7 @@ The lift coefficeint is in relation with the wing angle of attack
 
 <img align="center" src="images/land.jpg">
 
-<img align="center" src="images/landForces.jpg">
+<img align="center" height="300" src="images/landForces.jpg">
 
     G - weight
     Fz - lift force
