@@ -17,8 +17,9 @@ The four main which act on an airplane are the **lift**, **gravity**,  **thrust*
      Cz - lift coefficient
      
 The lift coefficeint is in relation with the wing angle of attack 
-
-<img align="centre" height="300" src="images/angleOfAttack.jpg">
+<p align="center">
+<img height="300" src="images/angleOfAttack.jpg">
+</p>
 
 <img src="https://render.githubusercontent.com/render/math?math=Drag =1/2*\rho*V^2*S*Cx">
 
@@ -46,7 +47,7 @@ The lift coefficeint is in relation with the wing angle of attack
 <img align="center" src="images/takeOff.jpg">
 
 <p align="center">
-	<img align="center" height="300" src="images/takeOffForces.jpg">
+	<img height="300" src="images/takeOffForces.jpg">
 </p>
 
     G - weight
@@ -77,9 +78,11 @@ The lift coefficeint is in relation with the wing angle of attack
 4. The throttle will be set to 0.
 5. When the plane reaches the ground it will brake to stop its motion.
 
-<img align="center" src="images/land.jpg">
+<img src="images/land.jpg">
 
-<img align="center" height="300" src="images/landForces.jpg">
+<p align="center">
+<img height="300" src="images/landForces.jpg">
+</p>
 
     G - weight
     Fz - lift force
