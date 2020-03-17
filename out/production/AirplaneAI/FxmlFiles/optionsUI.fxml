@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="122.0" layoutY="23.0" prefHeight="17.0" prefWidth="58.0" text="Air Density" />
+      <Label layoutX="122.0" layoutY="54.0" prefHeight="17.0" prefWidth="58.0" text="Wind" />
+      <Label layoutX="122.0" layoutY="89.0" prefHeight="17.0" prefWidth="100.0" text="Wing Lift Surface" />
+      <Label layoutX="122.0" layoutY="128.0" prefHeight="17.0" prefWidth="176.0" text="Maximum Cilinder Temperature" />
+      <Label layoutX="122.0" layoutY="168.0" prefHeight="17.0" prefWidth="142.0" text="Autopilot Safe Altitude" />
+      <TextField fx:id="maxCilinderTempTextField" layoutX="300.0" layoutY="124.0" />
+      <TextField fx:id="wingSurfaceTextField" layoutX="300.0" layoutY="85.0" />
+      <TextField fx:id="autopilotSafeAltTextField" layoutX="300.0" layoutY="164.0" />
+      <TextField fx:id="windTextField" layoutX="300.0" layoutY="50.0" />
+      <TextField fx:id="airDensityTextField" layoutX="299.0" layoutY="19.0" prefHeight="17.0" prefWidth="149.0" />
+      <Label layoutX="456.0" layoutY="23.0" prefHeight="17.0" prefWidth="58.0" text="kg/m^3" />
+      <Label layoutX="456.0" layoutY="54.0" prefHeight="17.0" prefWidth="58.0" text="m/s" />
+      <Label layoutX="456.0" layoutY="89.0" prefHeight="17.0" prefWidth="58.0" text="m^2" />
+      <Label layoutX="456.0" layoutY="128.0" prefHeight="17.0" prefWidth="58.0" text="°C" />
+      <Label layoutX="456.0" layoutY="168.0" prefHeight="17.0" prefWidth="58.0" text="m" />
+      <Button fx:id="applyButton" layoutX="396.0" layoutY="201.0" mnemonicParsing="false" text="Apply">
+         <effect>
+            <Lighting diffuseConstant="1.86">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="backButton" layoutX="459.0" layoutY="201.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
