@@ -18,7 +18,7 @@ The four main which act on an airplane are the **lift**, **gravity**,  **thrust*
      
 The lift coefficeint is in relation with the wing angle of attack 
 
-<img align="centre" src="images/angleOfAttack.jpg">
+<img align="centre" height="300" src="images/angleOfAttack.jpg">
 
 <img src="https://render.githubusercontent.com/render/math?math=Drag =1/2*\rho*V^2*S*Cx">
 
@@ -45,7 +45,9 @@ The lift coefficeint is in relation with the wing angle of attack
 
 <img align="center" src="images/takeOff.jpg">
 
-<img align="center" height="300" src="images/takeOffForces.jpg">
+<p align="center">
+	<img align="center" height="300" src="images/takeOffForces.jpg">
+</p>
 
     G - weight
     Fz - lift force
